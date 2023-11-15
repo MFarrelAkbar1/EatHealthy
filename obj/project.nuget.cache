@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mcH/C2BYmCSruvq4mRslwThdtJtN3IebllXKZRNeg7ff24qWJ7S25UnATXDPRFTvIUmX6jP4Ui4xOsRM0BJ1MQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USER\\OneDrive\\Documents\\PROJECT\\EatHealthy\\EatHealthy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

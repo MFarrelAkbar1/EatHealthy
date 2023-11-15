@@ -1,0 +1,16 @@
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\MainWindow.baml
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\Window1.baml
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\Window2.baml
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\Window3.baml
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\MainWindow.g.cs
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\Window1.g.cs
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\Window2.g.cs
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\Window3.g.cs
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\App.g.cs
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\EatHealthy_MarkupCompile.cache
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\EatHealthy.g.resources
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\EatHealthy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\EatHealthy.AssemblyInfoInputs.cache
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\EatHealthy.AssemblyInfo.cs
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\EatHealthy.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\EatHealthy.csproj.AssemblyReference.cache
