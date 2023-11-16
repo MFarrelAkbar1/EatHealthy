@@ -3,6 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Resep Makanan Sehat" Height="600" Width="800">
 
+	<Window.Resources>
+		<!-- Specify the path to your custom font file -->
+		<FontFamily x:Key="CustomFont">Fonts\REBEL Nation.ttf#REBEL Nation</FontFamily>
+		<Style TargetType="TextBlock">
+			<Setter Property="FontFamily" Value="{StaticResource CustomFont}"/>
+		</Style>
+
+	</Window.Resources>
+
 	<ScrollViewer VerticalScrollBarVisibility="Auto">
 		<Grid Margin="10">
 			<ItemsControl ItemsSource="{Binding Recipes}" x:Name="recipeItemsControl">
@@ -10,12 +19,12 @@
 					<DataTemplate>
 						<Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,10" Padding="10">
 							<StackPanel>
-								<TextBlock Text="{Binding Title}" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
+								<TextBlock Text="{Binding Title}" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" FontFamily="{StaticResource CustomFont}"/>
 								<TextBlock Text="Ingredients:" FontWeight="Bold" Margin="0,5,0,5"/>
 								<ItemsControl ItemsSource="{Binding Ingredients}">
 									<ItemsControl.ItemTemplate>
 										<DataTemplate>
-											<TextBlock Text="{Binding}" Margin="10,0"/>
+											<TextBlock Text="{Binding}" Margin="10,0" FontFamily="{StaticResource CustomFont}"/>
 										</DataTemplate>
 									</ItemsControl.ItemTemplate>
 								</ItemsControl>
@@ -24,7 +33,7 @@
 								<ItemsControl ItemsSource="{Binding Directions}">
 									<ItemsControl.ItemTemplate>
 										<DataTemplate>
-											<TextBlock Text="{Binding}" Margin="10,0"/>
+											<TextBlock Text="{Binding}" Margin="10,0" FontFamily="{StaticResource CustomFont}"/>
 										</DataTemplate>
 									</ItemsControl.ItemTemplate>
 								</ItemsControl>

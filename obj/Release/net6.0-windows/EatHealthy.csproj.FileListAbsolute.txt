@@ -14,3 +14,15 @@ C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\E
 C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\EatHealthy.AssemblyInfo.cs
 C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\EatHealthy.csproj.CoreCompileInputs.cache
 C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\EatHealthy.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\bin\Release\net6.0-windows\EatHealthy.exe
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\bin\Release\net6.0-windows\EatHealthy.deps.json
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\bin\Release\net6.0-windows\EatHealthy.runtimeconfig.json
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\bin\Release\net6.0-windows\EatHealthy.dll
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\bin\Release\net6.0-windows\EatHealthy.pdb
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\EatHealthy.csproj.CopyComplete
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\EatHealthy.dll
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\refint\EatHealthy.dll
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\EatHealthy.pdb
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\EatHealthy.genruntimeconfig.cache
+C:\Users\USER\OneDrive\Documents\PROJECT\EatHealthy\obj\Release\net6.0-windows\ref\EatHealthy.dll

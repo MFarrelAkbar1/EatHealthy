@@ -5,6 +5,16 @@
       "taskLabel": "task-EatHealthy",
       "appliesTo": "/",
       "type": "launch"
+    },
+    {
+      "taskLabel": "task-REBEL Nation",
+      "appliesTo": "Fonts/REBEL Nation.ttf",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-EatHealthy",
+      "appliesTo": "/",
+      "type": "launch"
     }
   ]
 }
