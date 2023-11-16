@@ -1,0 +1,20 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-EatHealthy",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-REBEL Nation",
+      "appliesTo": "Fonts/REBEL Nation.ttf",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-EatHealthy",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}

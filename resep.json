@@ -1,0 +1,159 @@
+[
+    {
+        "directions": [
+            "Kocok telur dalam mangkuk.",
+            "Tambahkan sayuran seperti paprika, tomat, dan bayam.",
+            "Goreng di atas api sedang hingga matang."
+        ],
+        "ingredients": [
+            "3 telur",
+            "1/2 paprika, cincang",
+            "1 buah tomat, cincang",
+            "Segenggam bayam",
+            "Garam dan lada secukupnya"
+        ],
+        "language": "id-ID",
+        "tags": ["diet"],
+        "title": "Omelet Sayuran Sehat"
+    },
+    {
+        "directions": [
+            "Rebus quinoa sesuai petunjuk kemasan.",
+            "Campur quinoa dengan sayuran segar seperti mentimun, tomat, dan selada.",
+            "Tambahkan dressing balsamic vinaigrette."
+        ],
+        "ingredients": [
+            "1 cup quinoa",
+            "1 buah mentimun, potong dadu",
+            "1 buah tomat, potong dadu",
+            "Segenggam selada",
+            "Dressing balsamic vinaigrette"
+        ],
+        "language": "id-ID",
+        "tags": ["diet"],
+        "title": "Salad Quinoa dan Sayuran"
+    },
+    {
+        "directions": [
+            "Marinasi potongan ayam dengan lemon, thyme, dan rosemary.",
+            "Panggang dalam oven sampai ayam matang."
+        ],
+        "ingredients": [
+            "2 potong dada ayam",
+            "Lemon, peras airnya",
+            "1 sendok teh thyme",
+            "1 sendok teh rosemary",
+            "Garam dan lada secukupnya"
+        ],
+        "language": "id-ID",
+        "tags": ["diet"],
+        "title": "Ayam Panggang Lemon dan Herba"
+    },
+    {
+        "directions": [
+            "Blender buah beri (strawberry, blueberry) dengan alpukat dan yogurt tanpa lemak.",
+            "Tambahkan es batu jika diinginkan."
+        ],
+        "ingredients": [
+            "1/2 cangkir strawberry",
+            "1/2 cangkir blueberry",
+            "1 buah alpukat, buah dagingnya",
+            "1 cangkir yogurt tanpa lemak",
+            "Es batu secukupnya"
+        ],
+        "language": "id-ID",
+        "tags": ["diet"],
+        "title": "Smoothie Beri dan Alpukat"
+    },
+    {
+        "directions": [
+            "Rebus potongan ikan dengan sayuran seperti kacang panjang, wortel, dan kentang.",
+            "Tambahkan santan secukupnya dan bumbu rendang."
+        ],
+        "ingredients": [
+            "200g ikan fillet, potong",
+            "100g kacang panjang, potong",
+            "1 buah wortel, potong dadu",
+            "2 buah kentang, potong dadu",
+            "200ml santan",
+            "Bumbu rendang secukupnya"
+        ],
+        "language": "id-ID",
+        "tags": ["diet"],
+        "title": "Sayur Lodeh Ikan"
+    },
+    {
+        "directions": [
+            "Rebus nasi dan campurkan dengan brokoli yang sudah direbus.",
+            "Sajikan dengan potongan ayam panggang tanpa kulit."
+        ],
+        "ingredients": [
+            "1 cangkir nasi merah, rebus",
+            "Segenggam brokoli, direbus",
+            "2 potong dada ayam panggang tanpa kulit",
+            "Garam dan lada secukupnya"
+        ],
+        "language": "id-ID",
+        "tags": ["diet"],
+        "title": "Nasi Brokoli dengan Ayam Panggang"
+    },
+    {
+        "directions": [
+            "Tumis tahu dengan buncis dan bumbu rempah.",
+            "Sajikan sebagai hidangan sayuran rendah kalori."
+        ],
+        "ingredients": [
+            "200g tahu, potong dadu",
+            "100g buncis, potong serong",
+            "1 sendok teh minyak kelapa",
+            "Bumbu rempah secukupnya"
+        ],
+        "language": "id-ID",
+        "tags": ["diet"],
+        "title": "Tumis Tahu dan Buncis"
+    },
+    {
+        "directions": [
+            "Campurkan biji chia dengan susu almond dan potongan alpukat.",
+            "Dinginkan dalam lemari es semalam."
+        ],
+        "ingredients": [
+            "3 sendok makan biji chia",
+            "1 cangkir susu almond",
+            "1 buah alpukat, potong dadu"
+        ],
+        "language": "id-ID",
+        "tags": ["diet"],
+        "title": "Puding Chia dengan Alpukat"
+    },
+    {
+        "directions": [
+            "Isi roti gandum dengan potongan ayam panggang, selada, dan tomat.",
+            "Tambahkan saus mustard untuk rasa ekstra."
+        ],
+        "ingredients": [
+            "2 potong roti gandum",
+            "100g potongan ayam panggang",
+            "Segenggam selada",
+            "1 buah tomat, potong tipis",
+            "Saus mustard secukupnya"
+        ],
+        "language": "id-ID",
+        "tags": ["diet"],
+        "title": "Sandwich Ayam dan Sayuran"
+    },
+    {
+        "directions": [
+            "Rebus pasta gandum dan campurkan dengan saus tomat segar.",
+            "Taburi dengan keju parmesan rendah lemak."
+        ],
+        "ingredients": [
+            "1 cangkir pasta gandum, rebus",
+            "1 cangkir saus tomat segar",
+            "Keju parmesan rendah lemak secukupnya"
+        ],
+        "language": "id-ID",
+        "tags": ["diet"],
+        "title": "Pasta Gandum dengan Saus Tomat Segar"
+    }
+]

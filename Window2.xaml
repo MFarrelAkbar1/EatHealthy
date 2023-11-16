@@ -1,80 +1,47 @@
 ﻿<Window x:Class="EatHealthyWPF.ResepMakanan"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Resep Makanan Sehat" Height="350" Width="525">
-    <ScrollViewer VerticalScrollBarVisibility="Auto">
-        <Grid Margin="0,0,0,-41">
-            <StackPanel Margin="0,0,20,20">
-            <TextBlock Text="Resep Makanan Sehat" FontSize="18" FontWeight="Bold"/>
-                <TabControl Height="532" Width="494">
-                    <TabItem Header="Resep 1">
-                    <StackPanel>
-                        <TextBlock Text="1. Perkedel Telur (1 porsi: 213 kalori)" FontWeight="Bold" Margin="0,0,0,10"/>
-                        <TextBlock Text="Bahan:" FontWeight="Bold"/>
-                        <TextBlock Text="5 butir telur ayam, rebus, kupas, belah dua"/>
-                        <TextBlock Text="25 gram tepung tapioka"/>
-                        <TextBlock Text="150 gram jamur merang, cincang"/>
-                        <TextBlock Text="1/2 sdt garam"/>
-                        <TextBlock Text="Bumbu Halus:" FontWeight="Bold"/>
-                        <TextBlock Text="2 butir bawang merah, iris" Width="514"/>
-                        <TextBlock Text="1 siung bawang putih, iris"/>
-                        <TextBlock Text="1 sdt lada"/>
-                        <TextBlock Text="1 sdt garam"/>
-                        <TextBlock Text="Cara membuat:" FontWeight="Bold"/>
-                        <TextBlock Text="1. Belah dua telur rebus dan ambil kuningnya lalu haluskan. Putih telurnya dicincang kasar."/>
-                        <TextBlock Text="2. Campur cincangan telur ayam, jamur merang, tepung tapioka, bumbu halus, dan kuning telur. Aduk sampai merata."/>
-                        <TextBlock Text="3. Bagi adonan menjadi sepuluh bagian dan bentuk sesuai selera." Width="498"/>
-                        <TextBlock Text="4. Panaskan minyak, goreng hingga berwarna kuning kecokelatan lalu angkat."/>
-                        <TextBlock Text="5. Hidangkan selagi hangat. (Catatan: Satu porsi perkedel telur berisi 2 buah perkedel)"/>
-    
+        Title="Resep Makanan Sehat" Height="600" Width="800">
 
-                    </StackPanel>
-                </TabItem>
+	<Window.Resources>
+		<!-- Specify the path to your custom font file -->
+		<FontFamily x:Key="CustomFont">Fonts\REBEL Nation.ttf#REBEL Nation</FontFamily>
+		<Style TargetType="TextBlock">
+			<Setter Property="FontFamily" Value="{StaticResource CustomFont}"/>
+		</Style>
 
-                <TabItem Header="Resep 2">
-                    <StackPanel>
-                        <TextBlock Text="2. Semur Tahu (1 porsi: 138 kalori)" FontWeight="Bold" Margin="0,0,0,10"/>
-                        <TextBlock Text="Bahan:" FontWeight="Bold"/>
-                        <TextBlock Text="250 gram tahu putih, haluskan"/>
-                        <TextBlock Text="50 gram udang kering, rendam air panas dan haluskan"/>
-                        <TextBlock Text="1 butir telur, kocok"/>
-                        <TextBlock Text="500 ml kaldu"/>
-                        <TextBlock Text="Minyak secukupnya untuk menggoreng"/>
-                        <TextBlock Text="2 sdm tepung tapioka"/>
-                        <TextBlock Text="Bumbu Halus:" FontWeight="Bold"/>
-                        <TextBlock Text="2 sdm irisan bawang merah"/>
-                        <TextBlock Text="1 sdm irisan bawang putih"/>
-                        <TextBlock Text="1 sdt lada bulat"/>
-                        <TextBlock Text="1/2 sdt pala"/>
-                        <TextBlock Text="1 sdt garam"/>
-                        <TextBlock Text="Bumbu Lain:" FontWeight="Bold"/>
-                        <TextBlock Text="2 sdm kecap manis"/>
-                        <TextBlock Text="2 butir cengkeh"/>
-                        <TextBlock Text="5 buah tomat kecil"/>
-                    </StackPanel>
-                </TabItem>
+	</Window.Resources>
 
-                <TabItem Header="Resep 3">
-                        <StackPanel>
-                            <TextBlock Text="3. Pindang Telur (1 porsi: 82 kalori)" FontWeight="Bold" Margin="0,0,0,10"/>
-                            <TextBlock Text="Bahan:" FontWeight="Bold"/>
-                            <TextBlock Text="5 butir telur ayam"/>
-                            <TextBlock Text="2 lembar daun salam"/>
-                            <TextBlock Text="500 ml air untuk merebus"/>
-                            <TextBlock Text="Bumbu:" FontWeight="Bold"/>
-                            <TextBlock Text="Irisan 1 sdm bawang merah"/>
-                            <TextBlock Text="Irisan 1 sdm bawang putih"/>
-                            <TextBlock Text="1 sdm air asam"/>
-                            <TextBlock Text="1 ruas lengkuas, iris"/>
-                            <TextBlock Text="1 sdt garam"/>
-                            <TextBlock Text="Cara membuat:" FontWeight="Bold"/>
-                            <TextBlock Text="1. Rebus telur dengan air dan semua bumbu dengan api sedang hingga telur matang dan air menyusut."/>
-                            <TextBlock Text="2. Angkat telur lalu ketuk-ketuk kulit telur hingga retak. Masukkan kembali ke air rebusan lalu masak hingga air menyusut. Angkat."/>
-                            <TextBlock Text="3. Kupas telur dan hidangkan."/>
-                        </StackPanel>
-                </TabItem>
-            </TabControl>
-        </StackPanel>
-    </Grid>
-    </ScrollViewer>
+	<ScrollViewer VerticalScrollBarVisibility="Auto">
+		<Grid Margin="10">
+			<ItemsControl ItemsSource="{Binding Recipes}" x:Name="recipeItemsControl">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate>
+						<Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,10" Padding="10">
+							<StackPanel>
+								<TextBlock Text="{Binding Title}" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" FontFamily="{StaticResource CustomFont}"/>
+								<TextBlock Text="Ingredients:" FontWeight="Bold" Margin="0,5,0,5"/>
+								<ItemsControl ItemsSource="{Binding Ingredients}">
+									<ItemsControl.ItemTemplate>
+										<DataTemplate>
+											<TextBlock Text="{Binding}" Margin="10,0" FontFamily="{StaticResource CustomFont}"/>
+										</DataTemplate>
+									</ItemsControl.ItemTemplate>
+								</ItemsControl>
+
+								<TextBlock Text="Directions:" FontWeight="Bold" Margin="0,10,0,5"/>
+								<ItemsControl ItemsSource="{Binding Directions}">
+									<ItemsControl.ItemTemplate>
+										<DataTemplate>
+											<TextBlock Text="{Binding}" Margin="10,0" FontFamily="{StaticResource CustomFont}"/>
+										</DataTemplate>
+									</ItemsControl.ItemTemplate>
+								</ItemsControl>
+							</StackPanel>
+						</Border>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+			</ItemsControl>
+		</Grid>
+	</ScrollViewer>
 </Window>

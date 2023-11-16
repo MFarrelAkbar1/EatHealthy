@@ -13,14 +13,15 @@ namespace EatHealthyWPF
         private void CatatAsupanCairan_Click(object sender, RoutedEventArgs e)
         {
             // Ambil nilai dari TextBox jumlah air minum
-            string jumlahAirMinum = TxtJumlahAirMinum.Text;
+            string jumlahAirMinum = TxtJumlahAirMinum.Text?.ToString() ?? string.Empty;
 
             // Ambil nilai dari ComboBox jenis minuman
             ComboBoxItem selectedJenisMinuman = (ComboBoxItem)CmbJenisMinuman.SelectedItem;
-            string jenisMinuman = selectedJenisMinuman.Content.ToString();
+            string jenisMinuman = selectedJenisMinuman?.Content?.ToString() ?? string.Empty;
 
             // Lakukan logika pencatatan asupan cairan di sini
             MessageBox.Show($"Catatan Asupan Cairan:\nJumlah: {jumlahAirMinum} ml\nJenis: {jenisMinuman}");
         }
+
     }
 }
