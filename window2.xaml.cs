@@ -23,7 +23,7 @@ namespace EatHealthyWPF
         {
             try
             {
-                var endpoint = "https://raw.githubusercontent.com/dpapathanasiou/recipes/master/index/1/1-2-3-cherry-poke-cake.json";
+                var endpoint = "https://raw.githubusercontent.com/MFarrelAkbar1/EatHealthy/resep.json";
                 using (var client = new HttpClient())
                 {
                     var response = await client.GetStringAsync(endpoint);
